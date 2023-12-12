@@ -118,8 +118,8 @@ public class SeleniumTest {
 
 		WebElement campoUsuario = driver.findElement(By.name("email"));
 		WebElement campoSenha = driver.findElement(By.name("password"));
-		campoUsuario.sendKeys("Lucas Medeiros");
-		campoSenha.sendKeys("123456");
+		campoUsuario.sendKeys("Ismael Mascarenhas");
+		campoSenha.sendKeys("348731");
 		campoSenha.submit();
 	}
 
